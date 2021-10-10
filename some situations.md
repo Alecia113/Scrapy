@@ -34,14 +34,11 @@ This one has both categories and tagged content
 <p> <div class="outer-cats"></p>
 <p> response.xpath('//div[@class="outer-cats"]//a/@href').extract()</p>
                                              
-<p> response.xpath('//a/@href').extract() </p>
-<p> response.xpath('//a/@href').extract() </p>
-<p> response.xpath('//a/@href').extract() </p>
-<p> response.xpath('//a/@href').extract() </p>
-<p> response.xpath('//a/@href').extract() </p>
-<p> response.xpath('//a/@href').extract() </p>
-<p> response.xpath('//a/@href').extract() </p>
-<p> response.xpath('//a/@href').extract() </p>
+<p> scrapy crawl field -o info.csv -t csv </p>
+<p> scrapy crawl dmoz -o items.csv -t csv </p>
+<p> shift+enter+command is the output of cmd</p>
+<p> The problem that occurs is that the assignment is to the item.
+So clear the item and let it start again</p>
 
 
 
