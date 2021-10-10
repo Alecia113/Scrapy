@@ -8,21 +8,21 @@ web url： response.url
 This one has both categories and tagged content
 <p> response.xpath('//a/@href').extract() </p>
 <p> More specifically </p>
-<img src="https://github.com/Alecia113/Scrapy/blob/main/img/12.png">
+<img src="https://github.com/Alecia113/Scrapy/blob/main/img/12.png"width="500px">
 <p> If there is a problem with XPath, then the result after extract() may be an empty list. </p>
 <p> We extract the first result of the match directly using the extract_first() method </p>
-<img src="https://github.com/Alecia113/Scrapy/blob/main/img/13.png">
+<img src="https://github.com/Alecia113/Scrapy/blob/main/img/13.png"width="500px">
 <p> Extract the first </p>
 <p> response.xpath('//a/text()').extract_first() </p>
 <p> Extracting website title tag content </p>
-<img src="https://github.com/Alecia113/Scrapy/blob/main/img/14.png">
+<img src="https://github.com/Alecia113/Scrapy/blob/main/img/14.png"width="500px">
 <p> https://blog.csdn.net/Python_sn/article/details/108827436?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163301544016780261980026%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=163301544016780261980026&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-108827436.first_rank_v2_pc_rank_v29&utm_term=response.selector.xpath&spm=1018.2226.3001.4187</p>
 <p> response.xpath('//meta[count(title)]/@id').extract() </p>
 <p> response.selector.xpath('//title/text()').extract_first() </p>
 <p> title </p>
-<img src ="https://github.com/Alecia113/Scrapy/blob/main/img/15.png">
+<img src ="https://github.com/Alecia113/Scrapy/blob/main/img/15.png"width="500px">
 <p> scrapy shell "http://www.dmoztools.net" </p>
-<img src="https://github.com/Alecia113/Scrapy/blob/main/img/16.png">
+<img src="https://github.com/Alecia113/Scrapy/blob/main/img/16.png"width="500px">
 <p> input:scrapy crawl dmoz -o items.json -t json </p>
 <p> cd quotes </p>
 <p> scrapy genspider www.dmoztools.net/ </p>
