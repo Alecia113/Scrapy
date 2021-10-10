@@ -4,4 +4,4 @@ Found that scapy is using item + a spider.py to achieve the data from HTML. Also
 
 web url： response.url
 some function about response.xpath
-<img https://github.com/Alecia113/Scrapy/blob/main/img/11.png>
+<img src="https://github.com/Alecia113/Scrapy/blob/main/img/11.png">
